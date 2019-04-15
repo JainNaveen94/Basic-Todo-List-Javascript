@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Employee TODO List</title>
+</head>
+
+<body>
+    <h1 align="center">Todo List</h1>
+
+    <div class="container" align="center">
+        <form>
+            <input type="text" placeholder="Username" id="name">
+            <input type="text" placeholder="Email Address" id="email">
+            <input type="text" placeholder="Phone Number" id="mobile">
+            <br>
+            <h2 align="center"><button id='addEmployee'>Add Employee</button></h2>
+        </form>
+    </div>
+
+
+    <table align="center">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Username</th>
+                <th>Email-Address</th>
+                <th>Mobile-Number</th>
+            </tr>
+        </thead>
+        <tbody id="employee_list">
+
+        </tbody>
+    </table>
+
+    <script src="TodoList_TS.ts"></script>
+</body>
+
+</html>
